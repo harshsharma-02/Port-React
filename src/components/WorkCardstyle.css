@@ -1,0 +1,45 @@
+.pr-heading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+.pr-cont{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+}
+.pr-card{
+    background: rgba(61, 58, 58, 0.966);
+    padding: 1.2rem 1rem;
+}
+.pr-card img{
+    height: 300px;
+    width: 100%;
+}
+.pr-details p{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+.pr-title{
+    color: white;
+    padding: 1rem 0;
+}
+.pr-btns{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+}
+.pr-btns .btn{
+    padding: 0.5rem 1rem;
+}
+@media screen and (max-width: 740px){
+    .pr-cont{
+        max-width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
